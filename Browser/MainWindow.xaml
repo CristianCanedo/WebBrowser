@@ -1,0 +1,22 @@
+﻿<Window x:Class="Browser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Browser"
+        mc:Ignorable="d"
+        Title="Web Browser" WindowState="Normal" Loaded="Window_Loaded"
+        WindowStyle="ThreeDBorderWindow"  Height="529" Width="731">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="&lt;&lt;" Height="23" Margin="10,5,0,0" Name="MyBack" HorizontalAlignment="Left" VerticalAlignment="Top" Width="25" ToolTip="Backward" Click="MyBack_Click"/>
+        <WebBrowser Name="MyWebBrowser" HorizontalAlignment="Left" Height="445" Margin="10,33,0,0" VerticalAlignment="Top" Width="687"/>
+        <TextBox Height="23" Margin="75,5,104,0" Name="MyTextBox" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="GO" HorizontalAlignment="Right" VerticalAlignment="Top" Width="25" Height="23" ToolTip="Go" Click="MyGo_Click" Name="MyGo" Margin="0,5,74,0" />
+        <Button Content="&gt;&gt;" Height="23" HorizontalAlignment="Left" Margin="45,5,0,0" Name="MyForward" VerticalAlignment="Top" Width="25" ToolTip="Forward" Click="MyForward_Click" RenderTransformOrigin="1.119,0.605"/>
+        <Button Content="Refresh" Height="23" HorizontalAlignment="Right" VerticalAlignment="Top" Width="Auto" ToolTip="Refresh" Click="MyRefresh_Click" Name="MyRefresh" Margin="0,5,26,0"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\Browser.csprojResolveAssemblyReference.cache
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\App.g.cs
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\Browser_MarkupCompile.cache
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\MainWindow.g.cs
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\Browser_MarkupCompile.lref
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\bin\Debug\Browser.exe.config
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\bin\Debug\Browser.exe
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\bin\Debug\Browser.pdb
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\MainWindow.baml
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\Browser.g.resources
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\Browser.Properties.Resources.resources
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\Browser.csproj.GenerateResource.Cache
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\Browser.exe
+c:\users\rawr\documents\visual studio 2017\Projects\Browser\Browser\obj\Debug\Browser.pdb
