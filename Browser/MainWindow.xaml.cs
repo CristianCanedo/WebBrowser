@@ -32,7 +32,7 @@ namespace Browser
                 // If you want to define a default URI then you can define like below...
                 MyWebBrowser.Source = new Uri("http://www.google.com");
 
-                // TO set blank
+                // To set blank URI use statement below
                 // MyWebBrowser.Source = new Uri("about:blank");
             }
             catch (Exception ex)
@@ -41,6 +41,8 @@ namespace Browser
             }
         }
 
+        // This method handles the action when a user clicks the "Back" button on the browser.
+        // It sends the user to the previous page he or she visited
         private void MyBack_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -53,6 +55,8 @@ namespace Browser
             }
         }
 
+        // This method handles the action when a user clicks the "Forward" button on 
+        // the browser and sends them to the web page after the previous or current.
         private void MyForward_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -65,6 +69,8 @@ namespace Browser
             }
         }
 
+        // This method handles the action when a user clicks the "Go" button on the browser
+        // It sends them to whatever website they input in their browser.
         private void MyGo_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -77,11 +83,14 @@ namespace Browser
             }
         }
 
+        
         private void MyWebBrowser_LoadCompleted(object sender, NavigationEventArgs e)
         {
             MessageBox.Show("Completed.");
         }
 
+        // Handles the action when the user presses the "Refresh" button on
+        // the browser. Reloads the web page by loading the current URI again.
         private void MyRefresh_Click(object sender, RoutedEventArgs e)
         {
             MyWebBrowser.Navigate(MyWebBrowser.Source.AbsoluteUri);
